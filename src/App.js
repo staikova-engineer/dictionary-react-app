@@ -14,7 +14,33 @@ function App() {
         <main className="App-main">
           <Dictionary defaultKeyword="hello" />
         </main>
-        <footer className="App-footer">Coded by Anna Staikova</footer>
+        <footer className="App-footer">
+          Made by{" "}
+          <a
+            href="https://www.linkedin.com/in/anna-staikova-engineer/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Anna Staikova
+          </a>{" "}
+          with React and is{" "}
+          <a
+            href="https://github.com/staikova-engineer/dictionary-react-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://playful-froyo-8e202c.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted
+          </a>
+          .
+        </footer>
       </div>
     </div>
   );
